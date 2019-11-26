@@ -1,3 +1,10 @@
+# need's system modules
+from selenium import webdriver
+
+        self.chrome_options = webdriver.ChromeOptions()
+        self.chrome_options.add_argument('headless')
+        self.driver = webdriver.Chrome()
+
 # ... main.py class version
 # ---------------------------
 # insert this code
