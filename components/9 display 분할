@@ -1,0 +1,8 @@
+    width = 640
+    height = 480
+    red_color = (255, 0, 0)
+    
+    cv2.line(mirror, (int(width/3), 0), (int(width/3), height), red_color)
+    cv2.line(mirror, (int(width*2/3), 0), (int(width*2/3), height), red_color)
+    cv2.line(mirror, (0, int(height/3)), (width, int(height/3)), red_color)
+    cv2.line(mirror, (0, int(height*2/3)), (width, int(height*2/3)), red_color)
